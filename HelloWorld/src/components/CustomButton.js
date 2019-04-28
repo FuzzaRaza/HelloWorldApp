@@ -10,7 +10,6 @@ const CustomButton = ({ onPress, children }) => {
         </TouchableOpacity>
     );
 };
-
 const styles = {
     buttonStyle: {
         flex: 1,
@@ -31,6 +30,4 @@ const styles = {
         paddingBottom: 10
     }
 };
-
-// export default CustomButton;
 export { CustomButton };
