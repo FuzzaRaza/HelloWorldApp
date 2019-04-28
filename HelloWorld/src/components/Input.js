@@ -17,7 +17,7 @@ return (
 <TextInput
 secureTextEntry={secureTextEntry}
 placeholder={placeholder}
-autoCorrect={autoCorrect}
+
 value={value}
 onChangeText={onChangeText}
 style={inputStyle}

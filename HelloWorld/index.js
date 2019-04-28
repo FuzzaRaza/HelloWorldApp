@@ -1,5 +1,9 @@
-export * from "./CustomButton";
-export * from "./Card";
-export * from "./CardSection";
-export * from "./Header";
-export * from "./Input";
+/**
+ * @format
+ */
+
+import {AppRegistry} from 'react-native';
+import App from './src/App';
+import {name as appName} from './app.json';
+
+AppRegistry.registerComponent(appName, () => App);

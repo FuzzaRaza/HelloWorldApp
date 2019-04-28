@@ -5,7 +5,7 @@ import firebase from "firebase";
 // Custom Components to be used in the app
 import { Header } from "./components";
 // Import our LoginForm component to be displayed on the screen
-import LoginForm from "./components";
+import LoginForm from "./LoginForm";
 
 export default class App extends Component {
 // Life cycle method to init the firebase
@@ -21,10 +21,10 @@ firebase.initializeApp({
 }
 render() {
 return (
-<View>
-<Header headerText="Authentication" />
-<LoginForm />
-</View>
+    <View>
+        <Header headerText="Authentication" />
+        <LoginForm />
+    </View>
 );
 }
 }
